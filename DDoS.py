@@ -38,7 +38,7 @@ for i in range(999999999):
 attacking_number = 0
 
 
-#A infinitive loop for attacking someone 
+#An infinitive loop for attacking someone 
 def attack():
     while True:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
